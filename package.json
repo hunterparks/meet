@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "mkdir -p ./dist/standupper-meet && cp src/*.html ./dist/standupper-meet/ && npx -y webpack"
+    "build": "mkdir -p ./dist/standupper-meet && cp src/*.html ./dist/standupper-meet/ && npx webpack -y"
   },
   "keywords": [],
   "author": "",
